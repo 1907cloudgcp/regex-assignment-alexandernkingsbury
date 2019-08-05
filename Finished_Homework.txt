@@ -29,7 +29,7 @@
 	which if I am not mistaken should be part of the awnser, below is a example, rest is on the bottom
 	
 390:General Manuel J. Campos
-	1234567 890111 1  111111
+    1234567 890111 1  111111
 			   012 3  456789
 	19 > 14
 	
