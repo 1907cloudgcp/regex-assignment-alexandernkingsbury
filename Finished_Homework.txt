@@ -30,7 +30,7 @@
 	
 390:General Manuel J. Campos
     1234567 890111 1  111111
-			   012 3  456789
+               012 3  456789
 	19 > 14
 	
 "6. List the cities that have at least 14 characters (hint: use egrep)
