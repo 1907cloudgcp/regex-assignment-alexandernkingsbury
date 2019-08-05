@@ -31,7 +31,7 @@
 390:General Manuel J. Campos
     1234567 891111 1  111112
               0123 4  567890
-	19 > 14
+	20 > 14
 	
 "6. List the cities that have at least 14 characters (hint: use egrep)
 	•   Output: Saint-Laurent-du-Var, Charlottenberg, Atarodangwautu, Salon-de-Provence, Sendangkemulian,
