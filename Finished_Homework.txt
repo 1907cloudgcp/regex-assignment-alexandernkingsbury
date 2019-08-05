@@ -1,0 +1,75 @@
+1.) egrep '^[Z]' cities.txt -i
+	Used egrep instead of grep for the sake of consistency
+	^ denotes start of the string, with the z being the only thing to be checked for
+	cities.txt is the name of the file to check
+	-i is to disable case sensitivity
+
+2.) egrep 'gan$' cities.txt -i
+	While searching for gan, the $ denotes to search at the end
+
+3.) egrep '^D|^A|^E' cities.txt -i | wc -l
+	| is used to denote a or statment to check for other valid conditions
+	wc is the word count command
+	-l makes it count the number of lines
+
+4.) egrep '\<.ar' cities.txt -i | wc -l
+	\< is to denote the start of a word
+
+5.) egrep '^([^c])' cities.txt -i -n -c
+	[^] is used to denote when somthing is not within the set of []
+
+6.).1) egrep '(.){14}' cities.txt -i
+	if white space is wanted 
+	{n} is used to repeat the segment n number of times
+
+6.).2) egrep '[- ](.){14}|[a-z]{14}' cities.txt -i
+
+	I'll be completly honest I put [- ] there by mistake, couldn't find out
+	what it was online, and got me info that was not listed on the assignment page
+	which if I am not mistaken should be part of the awnser, below is a example, rest is on the bottom
+	
+390:General Manuel J. Campos
+	1234567 890111 1  111111
+			   012 3  456789
+	19 > 14
+	
+"6. List the cities that have at least 14 characters (hint: use egrep)
+	•   Output: Saint-Laurent-du-Var, Charlottenberg, Atarodangwautu, Salon-de-Provence, Sendangkemulian,
+		Nishi-Tokyo-shi, Karolino-Buhaz, Saint-Quentin-en-Yvelines, Challhuahuacho, Chervonopartyzans’k,
+		Ambohitrolomahitsy."
+
+7.) egrep '^([b])' cities.txt -i | wc -l
+
+8.) egrep -o 'd' cities.txt | wc -l
+	-o prints only the selected portion
+
+9.) egrep '(.)\1$' cities.txt
+	\1 is the first portion repeated
+
+10.)egrep '^(.)(.)(.)\2\1$' cities.txt -i 
+	\2 is the 2nd portion repeated
+	Can't have a unlimited sized
+
+
+
+
+
+
+
+
+11:San Vicente Pacaya
+25:Saint-Laurent-du-Var
+30:Charlottenberg
+91:São Pedro da Aldeia
+113:Atarodangwautu
+170:Sendangkemulian
+188:Santa Rosa de Viterbo
+214:La Cruz de Río Grande
+285:Doctor Juan León Mallorquín
+386:Santa Cruz das Palmeiras
+390:General Manuel J. Campos
+398:Saint-Quentin-en-Yvelines
+404:Challhuahuacho
+450:Refojos de Riba de Ave
+481:Chervonopartyzans’k
+502:Ambohitrolomahitsy
