@@ -29,8 +29,8 @@
 	which if I am not mistaken should be part of the awnser, below is a example, rest is on the bottom
 	
 390:General Manuel J. Campos
-    1234567 890111 1  111111
-               012 3  456789
+    1234567 891111 1  111112
+              0123 4  567890
 	19 > 14
 	
 "6. List the cities that have at least 14 characters (hint: use egrep)
